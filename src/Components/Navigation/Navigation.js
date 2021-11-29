@@ -1,8 +1,8 @@
 import classes from "./Navigation.module.css";
 import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router";
+//import { useNavigate } from "react-router";
 import logo from "../../Assets/logo.png";
-import { useLocation } from "react-router";
+//import { useLocation } from "react-router";
 const Navigation = () => {
   //let navigate = useNavigate();
   //const location = useLocation();
