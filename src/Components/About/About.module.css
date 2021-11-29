@@ -1,0 +1,98 @@
+.box {
+  padding: 10px;
+  width: 80%;
+  display: block;
+  margin-bottom: 5em;
+  background-color: #28485593;
+  box-shadow: 1px 3px 10px 5px #ffffff;
+  border: 0.5px solid aliceblue;
+  border-radius: 5px;
+  margin: auto;
+  animation: pulse 4s infinite;
+}
+.profile {
+  width: 10em;
+  margin: auto;
+  height: 10em;
+  border-radius: 50%;
+  border: 0.2px solid cyan;
+  background-image: url("../../Assets/FB_IMG_1635599149506.jpg");
+  background-size: cover;
+  animation: showup 1s linear;
+}
+.name {
+  font-family: "Pacifico";
+  color: cyan;
+  font-size: 1.5em;
+  animation: showup 1s linear;
+}
+.description {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  font-size: 1em;
+  animation: showup 3s linear;
+}
+.socialMedia {
+  color: aqua;
+  display: inline-block;
+
+  margin-top: 2%;
+  justify-content: center;
+}
+.socialMedia img {
+  cursor: pointer;
+  margin: 0 1em 0 1em;
+  height: 5em;
+  animation: logo-spin 5s alternate infinite;
+}
+
+.number {
+  animation: showup 1s linear;
+  color: rgb(45, 243, 45);
+  margin: 0;
+  background-color: #0303036b;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 8px #0000005e;
+  width: fit-content;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px 1px cyan;
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 50px 5px #e9c46a;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px 1px cyan;
+  }
+}
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(-20deg);
+  }
+}

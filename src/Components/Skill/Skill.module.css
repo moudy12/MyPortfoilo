@@ -1,0 +1,148 @@
+.box {
+  padding: 0.3em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #28485593;
+  box-shadow: 1px 3px 20px 5px aliceblue;
+  border: 0.5px solid aliceblue;
+  cursor: pointer;
+  min-width: 20em;
+  min-height: 20em;
+  width: fit-content;
+  height: fit-content;
+  transition: all 0.5s ease-in-out;
+  animation: showup 1s linear;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.subject {
+  margin: 0 0 1em 0;
+}
+.image {
+  margin: 0;
+  width: 5em;
+  height: 5em;
+  animation: App-logo-spin infinite 1s alternate;
+}
+.description {
+  align-self: center;
+  width: 20em;
+  animation: showup 1s linear;
+}
+.progressbar {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1em;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.521);
+  border-radius: 13px;
+  width: 50%;
+  padding: 3px;
+}
+
+.progressbar > div {
+  background-color: orange;
+  width: 10%;
+
+  height: 0.5em;
+  border-radius: 10px;
+}
+.clickMe {
+  width: 100%;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: "Montserrat";
+  color: aliceblue;
+  animation: dance 3s linear infinite;
+}
+@keyframes dance {
+  0% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1);
+    color: gold;
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px 1px cyan;
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 50px 5px #e9c46a;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px 1px cyan;
+  }
+}
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -2000px;
+  }
+  20% {
+    margin-left: -1000px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
