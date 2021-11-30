@@ -13,7 +13,7 @@ const mySkills = [
     subject: "Reactjs",
     logo: Reactlogo,
     description:
-      "What i used to build This Website, I am Well acquainted with Reactjs Library and a multitude of its packages like Redux and React Router, also have taken multiple courses and built alot of small scale projects...",
+      "What i used to build This Website, I am Well acquainted with Reactjs Library and a multitude of its packages like Redux and React Router, also have taken multiple courses and built alot of small scale projects.",
     color: "cyan",
     level: "90%",
   },
@@ -21,7 +21,7 @@ const mySkills = [
     subject: "Nextjs",
     logo: nextLogo,
     description:
-      "Fairly skilled in Nextjs which is a ServerSide Reactjs Framework that uses file based routing",
+      "Fairly skilled in Nextjs which is a ServerSide Reactjs Framework that uses file based routing.",
     color: "black",
     level: "80%",
   },
@@ -45,7 +45,7 @@ const mySkills = [
   {
     subject: "Java",
     logo: javaLogo,
-    description: "The first intro i had to object oriented programming, have fair knowledge of all its concepts and proper programming patterns. i am also learning android studio in the meantime",
+    description: "The first intro i had to object oriented programming, have fair knowledge of all its concepts and proper programming patterns. i am also learning android studio currently which is a java framework for developing android apps.",
     color: "#f89820",
     level: "60%",
   },
@@ -61,7 +61,7 @@ const mySkills = [
     subject: "Mongodb",
     logo: mongoLogo,
     description:
-      "Used and Experimented quite a bit fetching and posting data to Mongodb. have yet to learn all of its features",
+      "Used and Experimented quite a bit fetching and posting data to Mongodb. have yet to learn all of its features.",
     color: "#4DB33D",
     level: "60%",
   },
@@ -69,7 +69,7 @@ const mySkills = [
     subject: "SQL",
     logo: sqlLogo,
     description:
-      "Acquainted With how SQL infrastructure works and how to manage and Create well structured SQL databases, But Still require Practice",
+      "Acquainted With how SQL infrastructure works and how to manage and Create well structured SQL databases, But Still require Practice...",
     color: "red",
     level: "60%",
   },
