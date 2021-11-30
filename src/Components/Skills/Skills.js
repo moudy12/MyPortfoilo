@@ -45,9 +45,9 @@ const mySkills = [
   {
     subject: "Java",
     logo: javaLogo,
-    description: "i love Javascript ",
+    description: "The first intro i had to object oriented programming, have fair knowledge of all its concepts and proper programming patterns. i am also learning android studio in the meantime",
     color: "#f89820",
-    level: "70%",
+    level: "60%",
   },
   {
     subject: "C Programing",
