@@ -21,7 +21,7 @@ const Navigation = () => {
         <ul>
           <li>
             <NavLink
-              to="/about-me"
+              to="/"
               style={({ isActive }) => ({ color: isActive ? "cyan" : "" })}
             >
               About
