@@ -1,19 +1,9 @@
 import classes from "./Navigation.module.css";
 import { NavLink } from "react-router-dom";
-//import { useNavigate } from "react-router";
+
 import logo from "../../Assets/logo.png";
-//import { useLocation } from "react-router";
+
 const Navigation = () => {
-  //let navigate = useNavigate();
-  //const location = useLocation();
-  //const { pathname } = location;
-  //function clickHandler() {
-    //navigate("/about-me");
-  //}
-  //let btnClass = classes.about;
-  //if (pathname === "/about-me") {
-   //btnClass = classes.btnClicked;
-  //}
   return (
     <header className={classes.main}>
       <nav className={classes.nav}>
@@ -41,13 +31,10 @@ const Navigation = () => {
               style={({ isActive }) => ({ color: isActive ? "cyan" : "" })}
             >
               Projects
-            </NavLink>{" "}
+            </NavLink>
           </li>
         </ul>
-        <div></div>
-        {/*<button className={btnClass} onClick={clickHandler}>
-          About Me
-  </button>*/}
+        <div className={classes.space}></div>
       </nav>
     </header>
   );

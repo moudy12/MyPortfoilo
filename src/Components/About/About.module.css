@@ -44,7 +44,7 @@
   cursor: pointer;
   margin: 0 1em 0 1em;
   height: 5em;
-  animation: logo-spin 5s alternate infinite;
+  animation: logo-spin 3s alternate infinite;
 }
 
 .number {
@@ -95,4 +95,8 @@
   to {
     transform: rotate(-20deg);
   }
+}
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }

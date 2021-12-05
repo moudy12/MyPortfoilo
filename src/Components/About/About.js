@@ -27,10 +27,18 @@ const About = () => {
           alt="reach me on Whatsapp"
           onClick={toggleNumberHandler}
         />
-        <a href="https://www.linkedin.com/in/mohamad-nasser-a6bb8b177">
+        <a
+          href="https://www.linkedin.com/in/mohamad-nasser-a6bb8b177"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={inLogo} alt="find me on Linkedin" />
         </a>
-        <a href="https://www.facebook.com/mohammad.nasser.37604/">
+        <a
+          href="https://www.facebook.com/mohammad.nasser.37604/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={fbLogo} alt="find me on Facebook" />
         </a>
         {toggle && <p className={classes.number}>+961 76592038</p>}
