@@ -12,9 +12,10 @@ body {
 html {
   height: fit-content;
   background-image: url("./Assets/2117.jpg");
-  background-attachment: fixed;
+  background-position: left;
+  background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 code {
