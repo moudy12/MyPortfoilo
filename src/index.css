@@ -12,7 +12,7 @@ body {
 html {
   height: fit-content;
   background-image: url("./Assets/2117.jpg");
-  background-position: left;
+  background-position: center;
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: auto;
