@@ -1,3 +1,7 @@
+**********
+ Portfoilo i made after deciding to improve my ReactJs/javascript/Css skills.
+Still alot of improvements to be made..
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
